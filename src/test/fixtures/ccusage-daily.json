@@ -1,0 +1,8 @@
+{
+  "daily": [
+    { "date": "2026-01-05", "inputTokens": 1000, "outputTokens": 2000, "cacheCreationTokens": 0, "cacheReadTokens": 1000, "totalTokens": 4000, "totalCost": 4.0, "modelsUsed": ["claude-sonnet"] },
+    { "date": "2026-01-06", "totalTokens": 8000, "totalCost": 8.0 },
+    { "date": "2026-01-07", "totalTokens": "12,000", "totalCost": "$12.00" }
+  ],
+  "totals": { "totalTokens": 24000, "totalCost": 24.0 }
+}
