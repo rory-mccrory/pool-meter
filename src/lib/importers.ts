@@ -190,7 +190,7 @@ function normHeader(h: string): string {
 function parseCsv(text: string): ParseResult {
   const warnings: string[] = [];
   const lines = text
-    .replace(/^﻿/, '')
+    .replace(/^\uFEFF/, '')
     .split(/\r?\n/)
     .map((l, i) => ({ text: l, line: i + 1 }))
     .filter((l) => l.text.trim() !== '' && !l.text.trim().startsWith('#'));
